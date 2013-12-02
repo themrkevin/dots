@@ -16,6 +16,8 @@
     "Snipmate Dependencies {{{
       Bundle 'MarcWeber/vim-addon-mw-utils'
       Bundle 'tomtom/tlib_vim'
+      " optional
+      Bundle 'honza/vim-snippets'
     "}}}
     Bundle 'garbas/vim-snipmate'
     Bundle 'tristen/vim-sparkup'
@@ -23,6 +25,7 @@
     Bundle 'tpope/vim-haml'
     Bundle 'tomtom/tcomment_vim'
     Bundle 'kien/ctrlp.vim'
+    Bundle 'jelera/vim-javascript-syntax'
   "}}}
   filetype plugin indent on   "required!
  	set omnifunc=syntaxcomplete#Complete
