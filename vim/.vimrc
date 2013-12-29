@@ -14,12 +14,12 @@
   "Bundles {{{
     Bundle 'tpope/vim-surround'
     "Snipmate Dependencies {{{
-      Bundle 'MarcWeber/vim-addon-mw-utils'
-      Bundle 'tomtom/tlib_vim'
+      " Bundle 'MarcWeber/vim-addon-mw-utils'
+      " Bundle 'tomtom/tlib_vim'
       " optional
-      Bundle 'honza/vim-snippets'
+      " Bundle 'honza/vim-snippets'
     "}}}
-    Bundle 'garbas/vim-snipmate'
+    " Bundle 'garbas/vim-snipmate'
     Bundle 'tristen/vim-sparkup'
     Bundle 'vim-ruby/vim-ruby'
     Bundle 'tpope/vim-haml'
@@ -27,6 +27,7 @@
     Bundle 'kien/ctrlp.vim'
     Bundle 'jelera/vim-javascript-syntax'
     Bundle 'digitaltoad/vim-jade'
+    Bundle 'nathanaelkane/vim-indent-guides'
   "}}}
   filetype plugin indent on   "required!
  	set omnifunc=syntaxcomplete#Complete
@@ -56,6 +57,11 @@
 "Mapping {{{
 	let mapleader=','
   map <leader>c <c-_><c-_>
+  "Buffer Navigaiton
+  map <C-k> <C-w><Up>
+  map <C-j> <C-w><Down>
+  map <C-h> <C-w><Left>
+  map <C-l> <C-w><Right>
 	"Insert Mode {{{
 		inoremap jj <esc>
 		"Auto append closing mustache
