@@ -26,6 +26,7 @@
     Bundle 'tomtom/tcomment_vim'
     Bundle 'kien/ctrlp.vim'
     Bundle 'jelera/vim-javascript-syntax'
+    Bundle 'digitaltoad/vim-jade'
   "}}}
   filetype plugin indent on   "required!
  	set omnifunc=syntaxcomplete#Complete
