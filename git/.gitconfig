@@ -1,8 +1,6 @@
 [user]
 	name = themrkevin
 	email = kevin.mangu@gmail.com
-[push]
-	default = simple
 [color]
   branch = auto
   diff = auto
