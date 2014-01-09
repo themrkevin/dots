@@ -28,6 +28,7 @@
     Bundle 'jelera/vim-javascript-syntax'
     Bundle 'digitaltoad/vim-jade'
     Bundle 'nathanaelkane/vim-indent-guides'
+    Bundle 'Valloric/MatchTagAlways'
   "}}}
   filetype plugin indent on   "required!
  	set omnifunc=syntaxcomplete#Complete
