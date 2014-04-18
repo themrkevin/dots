@@ -29,6 +29,8 @@
     Bundle 'digitaltoad/vim-jade'
     Bundle 'nathanaelkane/vim-indent-guides'
     Bundle 'Valloric/MatchTagAlways'
+    Bundle 'kchmck/vim-coffee-script'
+    Bundle 'nathanaelkane/vim-indent-guides'
   "}}}
   filetype plugin indent on   "required!
  	set omnifunc=syntaxcomplete#Complete
@@ -37,6 +39,11 @@
 	set t_Co=256
 	colorscheme jellybeans
 	syntax on
+  "Indent Colors {{{
+    let g:indent_guides_enable_on_vim_startup = 1
+    hi IndentGuidesOdd  ctermbg=233
+    hi IndentGuidesEven ctermbg=234
+  "}}}
 "}}}
 "Search Settings {{{
 	set hlsearch
