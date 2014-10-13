@@ -28,7 +28,6 @@
     Bundle 'jelera/vim-javascript-syntax'
     Bundle 'digitaltoad/vim-jade'
     Bundle 'nathanaelkane/vim-indent-guides'
-    Bundle 'Valloric/MatchTagAlways'
     Bundle 'kchmck/vim-coffee-script'
     Bundle 'nathanaelkane/vim-indent-guides'
   "}}}
