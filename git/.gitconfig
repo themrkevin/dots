@@ -1,6 +1,8 @@
 [user]
 	name = themrkevin
 	email = kevin.mangu@gmail.com
+[push]
+  default = simple
 [color]
   branch = auto
   diff = auto
@@ -18,3 +20,8 @@
   hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   type = cat-file -t
   dump = cat-file -p
+[core]
+  editor = /usr/bin/vim
+  excludesfile = /Users/kmangubat13/.gitignore_global
+[rerere]
+  enable = true
