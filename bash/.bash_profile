@@ -1,3 +1,6 @@
+source ~/.profile
+source ~/.hp_devtools/autocomplete.sh
+
 ##
 # Fancy Pants Aliases
 ##
@@ -16,3 +19,5 @@ alias be='bundle exec'
 export CLICOLOR=1
 export TERM=xterm-256color
 
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
